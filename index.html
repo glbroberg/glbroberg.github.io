@@ -9,6 +9,14 @@
     <title>Garrett Brober's Portfolio</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <script src="https://use.fontawesome.com/cc51f6d57c.js"></script>
 
@@ -23,11 +31,12 @@
 
         <!-- Header -->
         <header id="header" class="alt">
-            <h1><a href="index.html">Alpha</a> by HTML5 UP</h1>
+            <h1 class="bigText"> Garrett Broberg</h1>
             <nav id="nav">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#banner">Home</a></li>
                     <li><a href="#about">About me</a></li>
+                    <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#cta">Contact</a></li>
                 </ul>
@@ -52,47 +61,106 @@
                     <a><img class="headShot" src="images/Broberg.Garrett Headshot.jpg" /></a>
                     <p class="bio">
                         Hello, I'm Garrett Broberg and I'm a software developer in the Cleveland/Akron area.
-                        I have a Bachelors degree in mechanical engineering from West Virginia University and
-                        and Masters Degree in Data Analytics from Robert Morris University.  Recently, I attended
-                        the We Can Code IT boot camp in order to add fullstack web development to my skill set.  I enjoy
-                        back-end programming, machine learning and expanding my knowledge computer science concepts.
+                        Initially I worked as a design engineer at a manufacturing facility in Brownsville, PA.  After quitting that job in order to
+                        stay at home with my children for a few years, I returned to school to obtain a masters degree in 2017.  Since moving to Cleveland
+                        I decided to pursue a career in software development.  Recently, I completed the We Can Code IT boot camp in order to add fullstack
+                        web development to my skill set.  I am fascinated by all things computer science, from data analytics, machine learning and
+                        natural language processing to databases and back/front-end development to cyber security.  I enjoy learning new concepts and
+                        pushing myself to absorb new subjects and languages.
+                        <br />
+                        When my nose is not stuck in a computer or a book, I'm usually attending one of my sons' sporting events,
+                        fixing up my 1920's University Heights home, at work on the grill or in the kitchen.
                     </p>
-                    <p class="bio2">
-                        When my nose is not stuck in my computer I'm usually attending my son's sporting events,
-                        fixing up my 1920's University Heights home  or cooking dinner.
-                    </p>
-                    <p>
-                        <img class="schoolLogo" src="images/8ae45906-5671-47f9-b8b0-50df77e64d1d.jpg" />
-                        <img class="schoolLogo" src="images/rmu-logo-new.png" />
-                        <img class="schoolLogo" src="images/WCCIT-logo-180x28.png" />
-                    </p>
+
+                    <!--  Education  -->
+                    <h2 class="educationHeader">Education</h2>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img class="schoolLogo wvuLogo" src="images/8ae45906-5671-47f9-b8b0-50df77e64d1d.jpg" />
+                                <figcaption>
+                                    Bachelor of Science in Mechanical Engineering<br />
+                                    Morgantown, WV 2009
+                                </figcaption>
+                            </div>
+                            <div class="col-md-4 centered">
+                                <img class="schoolLogo rmuLogo" src="images/rmu-logo-new.png" />
+                                <figcaption>
+                                    Master of Science in Data Analytics<br />
+                                    Moon, PA 2016
+                                </figcaption>
+                            </div>
+                            <div class="col-md-4">
+                                <img class="schoolLogo wcciLogo" src="images/WCCIT-logo-180x28.png" />
+                                <figcaption>
+                                    Certificate of Software Development<br />
+                                    Cleveland, OH 2017
+                                </figcaption>
+                            </div>
+                        </div>
+                    </div>
                 </header>
                 <span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
             </section>
+
             <!--  Skill Set  -->
+            <h2 id="skills" class="skillsHeader">Skills</h2>
             <section class="box special features">
                 <div class="features-row">
+
+                    <!--  Databases  -->
                     <section>
-                        <span class="icon major fa-bolt accent2"></span>
-                        <h3>Magna etiam</h3>
-                        <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+                        <span>
+                            <i class="fa fa-folder-open skillIcon" aria-hidden="true"></i>
+                            <i class="fa fa-database skillIcon" aria-hidden="true"></i>
+                        </span>
+                        <h3>Database</h3>
+                        <p>
+                            <h4>Structured Query Language (SQL)</h4>
+                            <h4>Transactional Databases/MSSQL</h4>
+                            <h4>Oracle</h4>
+                            <h4>Microsoft SQL Server</h4>
+                        </p>
                     </section>
+
+                    <!--  Responsive Programming  -->
                     <section>
-                        <span class="icon major fa-area-chart accent3"></span>
-                        <h3>Ipsum dolor</h3>
-                        <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+                        <span>
+                            <i class="fa fa-mobile skillIcon" aria-hidden="true"></i>
+                            <i class="fa fa-desktop skillIcon" aria-hidden="true"></i>
+                            <i class="fa fa-tablet skillIcon" aria-hidden="true"></i>
+                        </span>
+                        <h3>Multiplatform Programming</h3>
+                        <p>
+                            <h4>Bootstrap</h4>
+                            <h4>Responsive design / Mobile</h4>
+                        </p>
                     </section>
                 </div>
                 <div class="features-row">
+
+                    <!--  Back End  -->
                     <section>
-                        <span class="icon major fa-cloud accent4"></span>
-                        <h3>Sed feugiat</h3>
-                        <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+                        <span><i class="fa fa-terminal skillIcon" aria-hidden="true"></i></span>
+                        <h3>Back-End</h3>
+                        <p>
+                            <h4>Object Oriented</h4>
+                            <h4>C#, Java, C++</h4>
+                            <h4>.NET</h4>
+                            <h4>Active Server Pages / ASP.net </h4>
+                        </p>
                     </section>
+
+                    <!--  Front End  -->
                     <section>
-                        <span class="icon major fa-lock accent5"></span>
-                        <h3>Enim phasellus</h3>
-                        <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+                        <span><i class="fa fa-code skillIcon" aria-hidden="true"></i></span>
+                        <h3>Front-End</h3>
+                        <p>
+                            <h4>HTML5</h4>
+                            <h4>CSS3</h4>
+                            <h4>Javascript</h4>
+                            <h4>jQuery</h4>
+                        </p>
                     </section>
                 </div>
             </section>
@@ -109,7 +177,10 @@
                             <span class="image featured"><a href="https://github.com/glbroberg/OutfitProject"><img src="images/wardrobe.PNG" /></a></span>
                             <h3>Wardrobe MVC Site (DB First) </h3>
                             <h4>Description:</h4>
-                            <p>Create a web application for managing the contents of your wardrobe. The app will allow you to add, edit, view, and delete items in your closet.</p>
+                            <p>
+                                Create a web application using a database first approach for managing the contents of a wardrobe. The app will allow you
+                                to add, edit, view, and delete items in your closet as well as arrange and save outfits.
+                            </p>
                             <a href="https://github.com/glbroberg/OutfitProject" class="icon fa-github biggerPic"></a>
                         </section>
 
@@ -121,7 +192,12 @@
                             <span class="image featured"><a href="https://github.com/glbroberg/Bank-Account---Project-3"><img src="images/Bank.PNG" alt="" /></a></span>
                             <h3>Bank Account Console Application</h3>
                             <h4>Description:</h4>
-                            <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+                            <p>
+                                Design a console application to manage a client’s bank account. The client has one checking account and one savings account.
+                                Givie the ability to enter a user name when the program begins would make the program useful for multiple users. 
+                                Find a way for the Client object and the Account objects to interact. 
+                                
+                            </p>
                             <a href="https://github.com/glbroberg/Bank-Account---Project-3" class="icon fa-github biggerPic"></a>
                         </section>
 
@@ -138,8 +214,8 @@
                             <h3>MVC/SQL Review Site (Code First) </h3>
                             <h4>Description:</h4>
                             <p>
-                                For this project you will be developing an MVC application that uses multiple models and foreign keys to model a relationship. You 
-                                have the choice to develop either a Technology Review site or a Travel Review site.
+                                Develope an MVC application with code first database design that uses multiple models and foreign keys to model 
+                                a relationship. This review site should allow users to all devices and review items.
                             </p>
                             <a href="https://github.com/glbroberg/Tech-Review-Project" class="icon fa-github biggerPic"></a>
                         </section>
@@ -153,8 +229,7 @@
                             <h3>Portfolio Site</h3>
                             <h4>Description:</h4>
                             <p>
-                                Create a static portfolio webpage highlighting your work so far. Focus first on having a good structure
-                                so you can add some great style to it with CSS!
+                                Create a static portfolio webpage highlighting the work done so far. First develope a structure and then style with CSS.
                             </p>
                             <a href="https://github.com/glbroberg/glbroberg.github.io" class="icon fa-github biggerPic"></a>
                         </section>
@@ -169,10 +244,10 @@
         <section id="cta">
 
             <h2>Contact Information</h2>
-            <p>Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc.</p>
+            <p>glbroberg@gmail.com</p>
             <p>
                 <a href="https://www.linkedin.com/in/garrett-broberg/" class="button buttonSpace">LinkedIn <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                <a href="https://www.linkedin.com/in/garrett-broberg/" class="button buttonSpace">Github <i class="fa fa-github-square" aria-hidden="true"></i></a>
+                <a href="https://github.com/glbroberg/" class="button buttonSpace">Github <i class="fa fa-github-square" aria-hidden="true"></i></a>
                 <a href="http://mailto:glbroberg@gmail.com" class="button buttonSpace">Email <i class="fa fa-envelope" aria-hidden="true"></i></a>
             </p>
 
@@ -180,16 +255,8 @@
 
         <!-- Footer -->
         <footer id="footer">
-            <ul class="icons">
-                <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-                <li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-                <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-                <li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-            </ul>
             <ul class="copyright">
-                <li>&copy; Untitled. All rights reserved.</li>
+                <li>&copy; Garrett Lars Broberg. All rights reserved.</li>
                 <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
             </ul>
         </footer>
