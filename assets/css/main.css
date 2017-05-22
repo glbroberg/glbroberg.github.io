@@ -2602,13 +2602,13 @@ input[type="button"],
     background-color: #666;
     border-radius: 6px;
     border: 0;
-    color: #ffffff;
+    color: rgb(70, 70, 70);
     cursor: pointer;
     display: inline-block;
     font-weight: 400;
     height: 3em;
     line-height: 3em;
-    padding: 0 2em;
+    padding: 0 1em;
     text-align: center;
     text-decoration: none;
     white-space: nowrap;
@@ -3183,7 +3183,7 @@ body.landing #main {
     #cta .button {
         box-shadow: none;
         background: #fff;
-        color: #e89980;
+        
     }
 
     #cta input[type="text"],
@@ -3779,4 +3779,17 @@ header.major  p.bio {
 header.major  p.bio2 {
     text-align:left;
     border:none;
+}
+
+.projectHeader{
+    margin-top:60px;
+}
+
+.buttonSpace{
+    margin:15px;
+    font-size:20px;
+}
+
+.biggerPic{
+    font-size:30px;
 }
